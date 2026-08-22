@@ -5,7 +5,7 @@ int main(void)
 {
     srand(time(0));
     int num = rand()%100+1;
-    int count = 1;
+    int count = 0;
     int x = 0;
     printf("请输入一个1到100内的整数：\n");
     do {
